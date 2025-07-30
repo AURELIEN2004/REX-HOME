@@ -3,7 +3,7 @@ import './Navbar.scss';
 import { FiMenu } from "react-icons/fi";
 
 const Navbar = () => {
-  return {
+  return (
     <div className='Navbar'> 
        <div className='Laptop'>
           <h2 className='logo'>
@@ -23,7 +23,8 @@ const Navbar = () => {
     <div className="mobile-menu">
      
   </div> 
-};
+    </div>
+  );
 };
 
 export default Navbar;
