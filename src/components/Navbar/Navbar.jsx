@@ -1,8 +1,9 @@
-import React from 'react'
-import './Navbar.scss'
+import React from 'react';
+import './Navbar.scss';
+import { FiMenu } from "react-icons/fi";
 
 const Navbar = () => {
-  return 
+  return {
     <div className='Navbar'> 
        <div className='Laptop'>
           <h2 className='logo'>
@@ -16,10 +17,13 @@ const Navbar = () => {
           <li className="link"> A propos</li>
           <li className="link"> Contact</li>
         </ul>
+        <FiMenu className="menu-icon" />
        </div>
     </div>
-  </div>
-  
-}
+    <div className="mobile-menu">
+     
+  </div> 
+};
+};
 
-export default Navbar
+export default Navbar;
