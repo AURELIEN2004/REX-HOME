@@ -17,7 +17,7 @@ const Produits = () => {
               </span>
               <h4 className="nom"> Rize de Sana</h4>
               <p className="desc">
-                Un magnifique et spacieux appartement pour vous et votre famille
+                Un magnifique et spacieux appartement pour vous et votre famille 
               </p>
             </div>
           </div>
