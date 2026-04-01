@@ -31,11 +31,17 @@
             display: flex;
             align-items: center;
             gap: 35px;
+            color: white; // Couleur pour les textes sans <a>
 
             li{
                 font-size: 15px;
                 opacity: 0.7;
                 cursor: pointer;
+                a {
+                    text-decoration: none;
+                    color: white;
+                    display: inline-block;
+                }
 
                 &:last-child{
                     background-color: #4e4caf;

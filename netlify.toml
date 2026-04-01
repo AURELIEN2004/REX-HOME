@@ -1,0 +1,9 @@
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = ""
+
+[[headers]]
+  for = "*.js"
+  [headers.values]
+    Content-Type = "text/javascript"

@@ -4,6 +4,7 @@ import { images } from "../../autres/data";
 
 const Contact = () => {
   return (
+    <section id="Contact" className="contact">
     <div className="sous-conteneur-contact">
       <span className="titre">Contact</span>
       <h2 className="sous-titre">Envoyez nous un message</h2>
@@ -41,6 +42,7 @@ const Contact = () => {
         </div>
       </div>
     </div>
+    </section>
   );
 };
 

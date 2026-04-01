@@ -4,6 +4,7 @@ import { images } from "../../autres/data";
 
 const Produits = () => {
   return (
+    <section id="Residence" className="produits">
     <div className="sous-conteneur-produits">
       <span className="titre">Les meilleures Offres</span>
       <h2 className="sous-titre">Résidences les plus populaire</h2>
@@ -158,6 +159,8 @@ const Produits = () => {
         </div>
       </div>
     </div>
+        </section>
+    
   );
 };
 

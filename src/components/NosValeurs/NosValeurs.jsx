@@ -14,6 +14,7 @@ const NosValeurs = () => {
   };
 
   return (
+    <section id="Values" className="nos-valeurs">  
     <div className="sous-conteneur-valeurs">
       <div className="grid">
         <div className="gauche">
@@ -75,6 +76,8 @@ const NosValeurs = () => {
         </div>
       </div>
     </div>
+        </section>
+
   );
 };
 
